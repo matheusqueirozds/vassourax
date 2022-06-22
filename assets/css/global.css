@@ -15,8 +15,14 @@ li {
 }
 
 a {
+    color: inherit;
     font-family: var(--fonte1);
     text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
 }
 
 .header-bg {
@@ -104,4 +110,16 @@ a {
         font-size: 0.875rem;
         padding: 8px 12px;
     }
+}
+
+.introducao-bg {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.introducao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    place-items: center;
 }
