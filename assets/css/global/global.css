@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--cor-11);
+    font-family: var(--fonte-1);
+    scroll-behavior: smooth;
+    padding-bottom: 600px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    font-family: var(--fonte-1);
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
