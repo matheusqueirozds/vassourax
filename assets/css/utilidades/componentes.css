@@ -1,5 +1,11 @@
-/* BOTÃO */
+/* CONTAINER */
+.container {
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
 
+/* BOTÃO */
 .botao {
     display: inline-block;
     background: linear-gradient(#ffbf00, #f2a60c);
@@ -15,6 +21,14 @@
 
 .botao:hover {
     background: linear-gradient(#ffb60d, #e59317);
+}
+
+.link-ativo {
+    color: var(--cor-p1);
+}
+
+.link-ativo:hover:after {
+    background-color: var(--cor-p1);
 }
 
 @media screen and (max-width: 600px) {

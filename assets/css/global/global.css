@@ -8,7 +8,6 @@ body {
     color: var(--cor-11);
     font-family: var(--fonte-1);
     scroll-behavior: smooth;
-    padding-bottom: 600px;
 }
 
 ul,
@@ -25,4 +24,8 @@ a {
 img {
     display: block;
     max-width: 100%;
+}
+
+img[src$=".jpg"] {
+    border-radius: 4px;
 }
