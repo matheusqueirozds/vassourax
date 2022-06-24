@@ -37,3 +37,18 @@
         font-size: 1rem;
     }
 }
+
+.link {
+    display: inline-block;
+    color: var(--cor-p1);
+    font: 500 1.5rem/1.5 var(--fonte-1);
+    text-transform: uppercase;
+}
+
+.link::after {
+    display: block;
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: currentColor;
+}

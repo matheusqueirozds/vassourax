@@ -5,6 +5,7 @@
 
 /* HOME */
 @import url(/assets/css/home/introducao.css);
+@import url(/assets/css/home/magia.css);
 
 /* UTILIDADES */
 @import url(/assets/css/utilidades/componentes.css);

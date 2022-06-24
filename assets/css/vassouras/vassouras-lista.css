@@ -2,8 +2,13 @@
     padding: 60px 0 120px 0;
 }
 
+.vassouras-lista .bloco {
+    max-width: 1200px;
+    margin: 0 auto 40px auto;
+}
+
 .vassouras-lista h2 {
-    margin-bottom: 40px;
+    max-width: 15ch;
 }
 
 .vassouras-lista ul {
@@ -54,6 +59,10 @@
 @media screen and (max-width: 800px) {
     .vassouras-lista {
         padding-bottom: 60px;
+    }
+
+    .vassouras-lista h2 {
+        max-width: 100%;
     }
 
     .vassouras-lista ul {
