@@ -106,4 +106,8 @@
         text-transform: lowercase;
         font-weight: 400;
     }
+
+    #vassoura .titulo p {
+        text-transform: initial;
+    }
 }
