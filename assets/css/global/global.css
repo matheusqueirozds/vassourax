@@ -1,3 +1,13 @@
+:root {
+    --padding: 120px;
+}
+
+@media screen and (max-width: 800px) {
+    :root {
+        --padding: 60px;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
