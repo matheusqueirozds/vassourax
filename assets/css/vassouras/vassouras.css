@@ -1,0 +1,105 @@
+.vassouras-bg {
+    background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 0);
+}
+
+.vassouras {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.vassouras-imagem {
+    display: grid;
+}
+
+.vassouras-imagem img {
+    grid-area: 1/1;
+}
+
+.vassouras-imagem span {
+    grid-area: 1/1;
+    place-self: start end;
+    margin-top: 20px;
+    display: inline-block;
+    background: var(--cor-12);
+    padding: 8px 16px 8px 8px;
+    border-radius: 4px 0 0 4px;
+}
+
+.vassouras-conteudo {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-content: flex-start;
+}
+
+.vassouras-conteudo h2,
+.vassouras-conteudo p {
+    grid-column: 1/-1;
+}
+
+.vassouras-conteudo h2 {
+    margin-bottom: 20px;
+}
+
+.vassouras-conteudo h2::before {
+    display: block;
+    content: "";
+    height: 8px;
+    width: 12px;
+    background-color: var(--cor-p1);
+    margin-bottom: 8px;
+}
+
+.vassouras p {
+    margin-bottom: 32px;
+}
+
+.vassouras a {
+    place-self: end;
+}
+
+.vassouras ul {
+    display: grid;
+    gap: 16px;
+}
+
+.vassouras li {
+    display: flex;
+    align-items: center;
+}
+
+.vassouras-conteudo img {
+    width: 24px;
+    margin-right: 8px;
+}
+
+@media screen and (max-width: 800px) {
+    .vassouras-bg {
+        background: var(--cor-11);
+    }
+
+    .vassouras {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .vassouras-conteudo {
+        grid-template-columns: 1fr;
+    }
+
+    .vassouras ul {
+        font-size: 1rem;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 32px;
+    }
+
+    .vassouras a {
+        place-self: start;
+    }
+}
