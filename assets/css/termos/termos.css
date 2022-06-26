@@ -1,0 +1,23 @@
+.termos {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.termos p {
+    margin-bottom: 24px;
+    max-width: 75ch;
+}
+
+.termos h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.termos a:hover {
+    color: var(--cor-7);
+    text-decoration: underline;
+}
+
+.termos-item:nth-child(even) {
+    margin: 40px 0;
+}
