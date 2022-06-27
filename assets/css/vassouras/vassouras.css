@@ -8,6 +8,8 @@
     gap: 40px;
     padding-top: 60px;
     padding-bottom: 60px;
+    background: url("/assets/img/dec/bottom-right.svg") no-repeat top 40px right
+        20px;
 }
 
 .vassouras-imagem {

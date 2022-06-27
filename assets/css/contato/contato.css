@@ -14,13 +14,15 @@
 }
 
 .contato-dados {
-    background-color: var(--cor-12);
     border-radius: 4px 0 0 4px;
+    background: var(--cor-12) url("/assets/img/dec/bottom-left.svg") no-repeat
+        bottom 20px left 20px;
 }
 
 .contato-formulario {
-    background-color: var(--cor-0);
     border-radius: 0 4px 4px 0;
+    background: var(--cor-0) url("/assets/img/dec/bottom-right.svg") no-repeat
+        bottom 20px right 20px;
 }
 
 .contato-dados h2 {
@@ -48,13 +50,13 @@
     color: var(--cor-0);
 }
 
-.contato-meios a:nth-child(1) {
-    background: url(/assets/img/icones/email.svg) no-repeat 0px 6px;
+.contato-meios a:first-child {
+    background: url("/assets/img/icones/email.svg") no-repeat 0px 6px;
     margin-bottom: 32px;
 }
 
 .contato-meios a:nth-child(2) {
-    background: url(/assets/img/icones/telefone.svg) no-repeat 0px 5px;
+    background: url("/assets/img/icones/telefone.svg") no-repeat 0px 5px;
     margin-bottom: 60px;
 }
 
@@ -72,6 +74,7 @@
     .contato-dados,
     .contato-formulario {
         padding: 20px;
+        background-image: none;
     }
 
     .contato-dados {

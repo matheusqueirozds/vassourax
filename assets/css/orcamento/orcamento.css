@@ -37,7 +37,8 @@
     align-content: flex-start;
     gap: 20px;
     border-radius: 4px 0 0 4px;
-    background-color: var(--cor-12);
+    background: var(--cor-12) url("/assets/img/dec/bottom-left.svg") no-repeat
+        bottom 20px left 20px;
 }
 
 .orcamento-produto > * {
@@ -108,7 +109,8 @@
 
 .orcamento-dados {
     border-radius: 0 4px 4px 0;
-    background-color: var(--cor-0);
+    background: var(--cor-0) url("/assets/img/dec/bottom-right.svg") no-repeat
+        bottom 20px right 20px;
 }
 
 .orcamento-conteudo {
@@ -168,6 +170,11 @@
 
     .orcamento-dados {
         border-radius: 0 0 5px 5px;
+    }
+
+    .orcamento-produto,
+    .orcamento-dados {
+        background-image: none;
     }
 }
 
