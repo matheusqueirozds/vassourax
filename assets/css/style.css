@@ -36,5 +36,8 @@
 @import url(/assets/css/contato/contato.css);
 @import url(/assets/css/contato/lojas.css);
 
+/* ORÇAMENTO */
+@import url(/assets/css/orcamento/orcamento.css);
+
 /* TERMOS */
 @import url(/assets/css/termos/termos.css);

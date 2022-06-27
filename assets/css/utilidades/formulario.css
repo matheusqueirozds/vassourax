@@ -6,8 +6,12 @@
 
 .form label {
     display: block;
-    font: 600 1rem/1.5 var(--font-1);
+    font: 400 1rem/1.5 var(--font-1);
     margin-bottom: 4px;
+}
+
+.form ::placeholder{
+    color: var(--cor-6);
 }
 
 .form .col-2 {
@@ -17,6 +21,7 @@
 .form input[type="text"],
 .form input[type="tel"],
 .form input[type="email"],
+.form input[type="number"],
 .form textarea {
     font: 400 1rem/1.5 var(--font-2);
     background: var(--cor-1);
@@ -29,6 +34,7 @@
 .form input[type="text"]:focus,
 .form input[type="tel"]:focus,
 .form input[type="email"]:focus,
+.form input[type="number"]:focus,
 .form textarea:focus {
     outline: none;
     border-color: var(--cor-p1);
