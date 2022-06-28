@@ -37,21 +37,9 @@
         grid-template-columns: 1fr;
     }
 
-    .seguro-imagem img {
-        max-height: 400px;
-        object-position: 0 -10px;
-    }
-
     .seguro-conteudo {
         grid-row: 1;
         padding-top: 40px;
         padding-bottom: 0;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .seguro-imagem img {
-        max-height: 200px;
-        object-position: 0 -20px;
     }
 }

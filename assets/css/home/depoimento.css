@@ -57,26 +57,8 @@
         text-align: center;
     }
 
-    .depoimento img {
-        max-height: 400px;
-        object-position: 0 -90px;
-    }
-
     .depoimento-conteudo {
         padding: 40px 20px;
         justify-self: center;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .depoimento img {
-        max-height: 200px;
-        object-position: 0 -50px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .depoimento img {
-        object-position: 0 -40px;
     }
 }
