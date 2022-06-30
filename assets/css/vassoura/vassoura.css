@@ -16,6 +16,7 @@
 .vassoura-imagens img {
     flex: 1;
     min-width: 200px;
+    cursor: pointer;
 }
 
 .vassoura-imagens img:first-child {
