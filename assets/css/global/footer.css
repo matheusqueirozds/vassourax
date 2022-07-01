@@ -44,6 +44,42 @@
 .footer-copy {
     grid-column: 1/-1;
     margin-top: 40px;
+    text-align: center;
+}
+
+.footer-perfil {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: #24292f;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+
+.footer-perfil a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #ebf0f4;
+    border: 1px solid rgba(27, 31, 36, 0.15);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1rem;
+    max-width: max-content;
+    opacity: 1;
+    margin-top: 30px;
+}
+
+.footer-perfil a:hover {
+    opacity: 0.9;
+    color: initial;
+}
+
+.footer-perfil img {
+    width: 20px;
 }
 
 @media screen and (max-width: 800px) {
@@ -53,6 +89,14 @@
 
     .footer > img {
         display: none;
+    }
+
+    .footer-copy {
+        text-align: initial;
+    }
+
+    .footer-perfil {
+        justify-content: left;
     }
 }
 

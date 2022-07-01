@@ -1,6 +1,6 @@
 .lojas {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 0 40px;
     padding-top: var(--padding);
     padding-bottom: var(--padding);
@@ -23,7 +23,7 @@
 
 .lojas-conteudo {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 32px 16px;
     padding: 32px;
 }
@@ -34,10 +34,11 @@
 }
 
 .lojas-dados {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     gap: 8px;
     border-left: 2px solid var(--cor-2);
-    padding-left: 12px;
 }
 
 .lojas-tempo {
@@ -55,13 +56,8 @@
     .lojas h2 {
         margin-bottom: 32px;
     }
-    .lojas-conteudo {
-        grid-template-columns: 1fr;
-    }
-}
 
-@media screen and (max-width: 600px) {
-    .lojas {
-        grid-template-columns: 1fr;
+    .lojas-conteudo {
+        padding: 28px 14px;
     }
 }

@@ -44,7 +44,7 @@ function eventosPerguntas(pergunta) {
 
 perguntas.forEach(eventosPerguntas);
 
-// Galeria de Bicicletas
+// Galeria de Vassourass
 const galeria = document.querySelectorAll(".vassoura-imagens img");
 const galeriaContainer = document.querySelector(".vassoura-imagens");
 
@@ -66,4 +66,3 @@ galeria.forEach(eventosGaleria);
 if (window.SimpleAnime) {
     new SimpleAnime();
 }
-
