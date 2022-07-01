@@ -64,6 +64,7 @@
 }
 
 .seguros-item a {
+    display: inline-block;
     grid-column: 1/-1;
 }
 
