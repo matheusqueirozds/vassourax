@@ -135,9 +135,21 @@ Inicie o servidor pelo Go Live, disponível após a intalação da extensão Liv
 
 <div align="center">
 
-| Home | Vassouras | Seguros | Contato |
-| --- | --- | --- | --- |
-| <img src="https://user-images.githubusercontent.com/70871620/193680227-15bc7aff-3492-433a-a203-52c727d9ac5a.png" max-width="1220px" title="Home"/> | <img src="https://user-images.githubusercontent.com/70871620/193680357-6ae41a9a-2023-49ee-ad76-2a479c807561.png" max-width="1220px" title="Vassouras" /> | <img src="https://user-images.githubusercontent.com/70871620/193680595-d4167c4c-f4cd-4b7b-85cf-fd141942d5ee.png" max-width="1220px" title="Seguros" /> | <img src="https://user-images.githubusercontent.com/70871620/193680837-283ec0c3-b8f6-4d1c-9f7b-bb07f45a07ae.png" max-width="1220px" title="Contato" />
+Home 
+--- 
+<img src="https://user-images.githubusercontent.com/70871620/193680227-15bc7aff-3492-433a-a203-52c727d9ac5a.png" max-width="1220px" title="Home"/> 
+
+Vassouras 
+--- 
+<img src="https://user-images.githubusercontent.com/70871620/193680357-6ae41a9a-2023-49ee-ad76-2a479c807561.png" max-width="1220px" title="Vassouras" />
+
+Seguros 
+--- 
+<img src="https://user-images.githubusercontent.com/70871620/193680595-d4167c4c-f4cd-4b7b-85cf-fd141942d5ee.png" max-width="1220px" title="Seguros" /> 
+
+Contato 
+--- 
+<img src="https://user-images.githubusercontent.com/70871620/193680837-283ec0c3-b8f6-4d1c-9f7b-bb07f45a07ae.png" max-width="1220px" title="Contato" />
 
 </div>
 </details>
