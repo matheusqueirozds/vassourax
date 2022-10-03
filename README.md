@@ -116,6 +116,17 @@ Inicie o servidor pelo Go Live, disponível após a intalação da extensão Liv
 ![image](https://user-images.githubusercontent.com/70871620/193433021-eda88178-eec1-4580-a768-0408298cb70e.png)
 
 </details>  
+
+ --- 
+ 
+<details>
+<summary><h2>🤹🏾‍♂️ Stacks utilizadas</h2></summary>
+  
+- UX/UI Design
+- HTML e CSS
+- JavaScript  
+  
+</details>   
   
  --- 
  
