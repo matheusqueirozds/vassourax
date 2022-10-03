@@ -78,13 +78,6 @@ Seguem as principais features acrescentadas nesse projeto:
 <details>
 <summary><h2>🚫 Roadmap</h2></summary>
 
-Para concluir o projeto ainda pretendo:
-
--  [ ] Refatorar todo o código, baseado no clean code
--  [ ] Adicionar uma página de login no site
--  [ ] Atualizar a UX/UI do site, levando em consideração a experiência do usuário
--  [ ] Melhorar o SEO do site
-
 </details>  
   
  --- 
