@@ -68,9 +68,9 @@ Seguem as principais features acrescentadas nesse projeto:
 -  [x] O site está responsivo
 -  [x] As informações estão organizadas por seções
 -  [x] O código está indentado e de fácil entendimento para futuras manutenções
--  [x] Foram utilizadas tags avançadas , explorando diversas possibilidades de formatação do site
--  [x] Existem contéudos dinâmicos no site, como galeria de imagens, feitos com JavaScript
-
+-  [x] Foram utilizadas tags avançadas do HTML e do CSS, explorando diversas possibilidades de formatação do site
+-  [x] Existem contéudos dinâmicos no site.
+  
 </details>  
   
  --- 
@@ -92,7 +92,12 @@ Para concluir o projeto ainda pretendo:
 <details>
 <summary><h2>🎯 Aprendizados</h2></summary>
 
-Esse foi meu primeiro projeto com JavaScript, no qual aprendi manipulação do DOM e lógica de programação.
+-  [x] Componentização
+-  [x] Manipulação do DOM
+-  [x] Otimizações
+-  [x] Semântica e acessibilidade
+-  [x] Minificação do CSS
+-  [x] SEO  
 
 </details>    
   
@@ -104,13 +109,13 @@ Esse foi meu primeiro projeto com JavaScript, no qual aprendi manipulação do D
 Clone o projeto via HTTPS
 
 ```bash
-  git clone https://github.com/matheusqueirozds/animais-fantasticos.git
+  git clone https://github.com/matheusqueirozds/vassourax.git
 ```
 
 Entre no diretório do projeto
 
 ```bash
-  cd animais-fantasticos
+  cd vassourax
 ```
 
 Inicie o servidor pelo Go Live, disponível após a intalação da extensão Live Server ([clique aqui](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) para baixar a extensão)
@@ -126,10 +131,9 @@ Inicie o servidor pelo Go Live, disponível após a intalação da extensão Liv
 
 <div align="center">
 
-| Galeria de imagems | FAQ | Contato |
-| --- | --- | --- |
-| <img src="https://user-images.githubusercontent.com/70871620/193639165-7e33b7b7-7be5-4833-b64f-83a8dc8b7ef2.png" max-width="1220px" title="Galeria de fotos"/> | <img src="https://user-images.githubusercontent.com/70871620/193639918-8c0efa45-c0bc-4d97-8caa-1c28c5fc7be2.png" max-width="1220px" title="FAQ" /> | <img src="https://user-images.githubusercontent.com/70871620/193640340-0bbf87a9-c99d-4db8-9ae5-305bb286d169.png" max-width="1220px" title="Contato" />
-
+| Home | Vassouras | Seguros | Contato |
+| --- | --- | --- | --- |
+| <img src="https://user-images.githubusercontent.com/70871620/193680227-15bc7aff-3492-433a-a203-52c727d9ac5a.png" max-width="1220px" title="Home"/> | <img src="https://user-images.githubusercontent.com/70871620/193680357-6ae41a9a-2023-49ee-ad76-2a479c807561.png" max-width="1220px" title="Vassouras" /> | <img src="https://user-images.githubusercontent.com/70871620/193680595-d4167c4c-f4cd-4b7b-85cf-fd141942d5ee.png" max-width="1220px" title="Seguros" /> | <img src="https://user-images.githubusercontent.com/70871620/193680837-283ec0c3-b8f6-4d1c-9f7b-bb07f45a07ae.png" max-width="1220px" title="Contato" />
 
 </div>
 </details>
