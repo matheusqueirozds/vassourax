@@ -4,7 +4,7 @@
   
 > 🧹 E-commerce baseado no universo de Harry Potter. Oferecemos produtos personalizados pela nossa equipe de bruxos, feitos ao toque de varinhas específicas e com muito apreço aos detalhes. Cada Vassourax é única e possui a sua identidade. As medidas serão exatas para o seu corpo e altura, garantindo maior conforto e ergonomia no seu vôo.
   
-  <img src="https://user-images.githubusercontent.com/70871620/193677949-8dd66c48-e521-4b34-9692-3826b32391c1.gif" height="150px" title="Coelho do Github mastigando um bug"/>  
+  <img src="https://user-images.githubusercontent.com/70871620/193677949-8dd66c48-e521-4b34-9692-3826b32391c1.gif" height="150px" title="Wingardium leviosa, Ruindows 10!"/>  
 
 <br>
   
