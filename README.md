@@ -10,7 +10,7 @@
   
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
  
-[Clique aqui](http://vassourax.vercel.app/) para acessar o deploy do projeto
+[Clique aqui](https://vassourax.vercel.app/) para acessar o deploy do projeto
   
 </div>
 
