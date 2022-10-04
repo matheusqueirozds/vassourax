@@ -78,6 +78,10 @@ Seguem as principais features acrescentadas nesse projeto:
 <details>
 <summary><h2>🚫 Roadmap</h2></summary>
 
+Seguem as implementações a serem adicionadas nesse projeto:
+ 
+ -  [ ] Alterar paleta de cores do site
+
 </details>  
   
  --- 
