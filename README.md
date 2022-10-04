@@ -85,12 +85,12 @@ Seguem as principais features acrescentadas nesse projeto:
 <details>
 <summary><h2>🎯 Aprendizados</h2></summary>
 
--  [x] Componentização
--  [x] Manipulação do DOM
--  [x] Otimizações
--  [x] Semântica e acessibilidade
--  [x] Minificação do CSS
--  [x] SEO  
+- Componentização
+- Manipulação do DOM
+- Otimizações
+- Semântica e acessibilidade
+- Minificação do CSS
+- SEO  
 
 </details>    
   
